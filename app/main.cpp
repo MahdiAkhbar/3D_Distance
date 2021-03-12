@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-float ux{}, uy{}, vx{}, vy{}, vz{};
-
 float dist3(float ux, float uy, float uz, float vx, float vy, float vz)
 {
   float d = sqrt(pow((vx-ux),2) + pow((vy-uy),2) + pow((vz-uz),2));
